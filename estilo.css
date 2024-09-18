@@ -46,7 +46,8 @@ body{
     text-align: center;
     color: pink;
     grid-row: 1;
-    margin-top: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .menu-principal{
     grid-column: 2/5;
@@ -54,9 +55,9 @@ body{
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: 0px;
     margin-left: -40px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 li > a {
 	color: #c72087;
@@ -68,7 +69,7 @@ li > a {
 }
 .buscador{
     grid-column: 5/7;
-    margin-top: -20px;
+    margin-top: 0px;
     margin-left: 80px;
 }
 .search{
