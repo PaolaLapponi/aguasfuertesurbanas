@@ -12,7 +12,7 @@ body{
     border-radius: 4px;
     display: grid;
     grid-template-columns:repeat(6, 1fr);
-    grid-template-rows: repeat(2, auto); 
+    grid-template-rows: repeat(3, auto); 
     grid-column: 1/9; 
 }
 .contenido {
@@ -67,26 +67,26 @@ body{
     justify-items: center;
 }
 .titulo-pag{
-    grid-column: 2/6;
+    grid-column: 1/9;
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
     text-align: center;
     color: rgb(243, 243, 243);
-    grid-row: 1;
-    margin-top: 10px;
+    grid-row: 2;
     margin-bottom: 10px;
     text-decoration: none;
 }
 .menu-principal{
-    grid-column: 1/7;
+    grid-column: 1/8;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 80px;
     margin-bottom: 10px;
+    grid-row: 3;
 }
 .lista{
     margin-left: 30px;
@@ -102,10 +102,7 @@ ul > li >a:hover{
      color: rgb(214, 3, 63);
 }
 .buscador{
-    grid-column: 5/7;
-    margin-top: 10px;
-    margin-left: 175px;
-    margin-bottom: 20px;
+    grid-column: 7/8;
     grid-row: 1;
 }
 .pie-de-pag{
