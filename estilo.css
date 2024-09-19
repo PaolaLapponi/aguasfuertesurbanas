@@ -82,7 +82,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 ul > li >a:hover{
-     color: rgb(174, 1, 50);
+     color: rgb(214, 3, 63);
 }
 .buscador{
     grid-column: 5/7;
@@ -109,5 +109,5 @@ p{
     font-style: normal;
 }
 footer > a:hover{
-    color: rgb(248, 0, 91);
+    color: rgb(255, 17, 17);
 }
