@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(220, 185, 185);
+    background-color: rgb(205, 205, 205);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(8, 1fr);
@@ -7,7 +7,7 @@ body{
     padding: 10px;
 }
 .navegacion {
-    background-color: rgb(34, 0, 52);
+    background-color: rgb(23, 23, 23);
     padding: 10px;
     border-radius: 4px;
     display: grid;
@@ -16,19 +16,19 @@ body{
     grid-column: 1/9; 
 }
 .contenido {
-    background-color: rgb(170, 124, 202);
+    background-color: rgb(235, 235, 235);
     padding: 20px;
     border-radius: 4px;
     grid-column: 1/8;
 }
 .sidebar {
-    background-color: rgb(255, 109, 167);
+    background-color: rgb(132, 132, 132);
     padding: 30px;
     border-radius: 4px;
     grid-column: 8;
 }
 .footer {
-    background-color: rgb(151, 92, 255);
+    background-color: rgb(87, 87, 87);
     padding: 10px;
     border-radius:4px;
     bottom: 10px;
@@ -52,7 +52,7 @@ body{
     font-style: normal;
     font-size: 60px;
     text-align: center;
-    color: pink;
+    color: rgb(243, 243, 243);
     grid-row: 1;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -63,13 +63,13 @@ body{
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: -40px;
     margin-bottom: 0px;
 }
 .lista{
     margin-left: 30px;
-	color: #c72087;
+	color: #d7d7d7;
 	text-decoration: none;
 	padding-left: 20px;
     padding-right: 20px;
@@ -78,10 +78,13 @@ body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
+ul > li >a:hover{
+     color: rgb(174, 1, 50);
+}
 .buscador{
     grid-column: 5/7;
-    margin-top: 10px;
-    margin-left: 80px;
+    margin-top: 22px;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 .pie-de-pag{
@@ -90,4 +93,5 @@ body{
 .pie-links{
     margin-top: 12px;
     text-decoration: none;
+    color: #d7d7d7;
 }
