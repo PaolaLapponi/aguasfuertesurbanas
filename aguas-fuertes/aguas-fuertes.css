@@ -79,17 +79,15 @@ body{
     text-decoration: none;
 }
 .menu-principal{
-    grid-column: 1/8;
+    grid-column: 2/7;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 80px;
     margin-bottom: 10px;
     grid-row: 3;
 }
 .lista{
-    margin-left: 30px;
 	color: #d7d7d7;
 	text-decoration: none;
 	padding-left: 20px;
