@@ -33,9 +33,27 @@ body{
 }
 .sidebar {
     background-color: rgb(153, 153, 153);
-    padding: 30px;
+    padding: 5px 20px;
     border-radius: 4px;
     grid-column: 8;
+    font-family:"Montserrat", sans-serif;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(40, auto);
+}
+.sidebar > a:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sidebar > a:visited{
+    color: rgb(74, 10, 33);
+}
+.sidebar > a:hover{
+    color: rgb(153, 0, 0);
+}
+.sidebar > h2 {
+    font-size: 20px;
+    text-align: center;
 }
 .footer {
     background-color: rgb(87, 87, 87);
@@ -101,6 +119,12 @@ ul > li >a:hover{
 }
 h2{
     font-family: "Montserrat", sans-serif;
+}
+h2 > a:link{
+    text-decoration: none;
+}
+h2 > a:visited{
+    color: black;
 }
 p{
     font-family: "Open Sans", sans-serif;
