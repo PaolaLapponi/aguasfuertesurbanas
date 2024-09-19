@@ -17,12 +17,16 @@ body{
 }
 .contenido {
     background-color: rgb(235, 235, 235);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     border-radius: 4px;
     grid-column: 1/8;
+    text-align: justify;
 }
 .sidebar {
-    background-color: rgb(132, 132, 132);
+    background-color: rgb(153, 153, 153);
     padding: 30px;
     border-radius: 4px;
     grid-column: 8;
@@ -56,6 +60,7 @@ body{
     grid-row: 1;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 .menu-principal{
     grid-column: 1/7;
@@ -75,7 +80,6 @@ body{
 	display: flex;
 	font-size: 18px;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
 }
 ul > li >a:hover{
      color: rgb(174, 1, 50);
@@ -95,14 +99,15 @@ ul > li >a:hover{
     text-decoration: none;
     color: #d7d7d7;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
 }
 h2{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
 }
 p{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+footer > a:hover{
+    color: rgb(248, 0, 91);
 }
