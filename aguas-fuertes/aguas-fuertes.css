@@ -104,6 +104,8 @@ ul > li >a:hover{
 .buscador{
     grid-column: 7/8;
     grid-row: 1;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 .pie-de-pag{
     margin: 20px;
