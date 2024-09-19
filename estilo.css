@@ -106,9 +106,6 @@ ul > li >a:hover{
     margin-top: 5px;
     margin-right: 5px;
 }
-.pie-de-pag{
-    margin: 20px;
-}
 .pie-links{
     margin-top: 12px;
     text-decoration: none;
@@ -133,7 +130,7 @@ p{
 footer > a:hover{
     color: rgb(255, 17, 17);
 }
-.entrada{
+.entradas-de-pag{
     background-color: rgb(231, 230, 230);
     grid-row: auto;
     padding: 20px 40px;
