@@ -15,34 +15,6 @@ body{
     grid-template-rows: repeat(2, auto); 
     grid-column: 1/9; 
 }
-.contenido {
-    background-color: rgb(235, 235, 235);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
-    border-radius: 4px;
-    grid-column: 1/8;
-    text-align: justify;
-}
-.sidebar {
-    background-color: rgb(153, 153, 153);
-    padding: 30px;
-    border-radius: 4px;
-    grid-column: 8;
-}
-.footer {
-    background-color: rgb(87, 87, 87);
-    padding: 10px;
-    border-radius:4px;
-    bottom: 10px;
-    grid-column: 1/9;
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(1, auto);
-    justify-items: center;
-    
-}
 .titulo-pag{
     grid-column: 2/6;
     font-family: "Squada One", sans-serif;
@@ -84,24 +56,4 @@ ul > li >a:hover{
     margin-left: 175px;
     margin-bottom: 20px;
     grid-row: 1;
-}
-.pie-de-pag{
-    margin: 20px;
-}
-.pie-links{
-    margin-top: 12px;
-    text-decoration: none;
-    color: #f2f2f2;
-    font-family: "Montserrat", sans-serif;
-}
-h2{
-    font-family: "Montserrat", sans-serif;
-}
-p{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-footer > a:hover{
-    color: rgb(255, 17, 17);
 }
