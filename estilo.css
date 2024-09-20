@@ -18,7 +18,7 @@ body{
 .contenido {
     background-color: rgb(205, 205, 205);
     border-radius: 4px;
-    grid-column: 1/8;
+    grid-column: 1/7;
     text-align: justify;
 }
 .entradas-de-pag{
@@ -32,10 +32,10 @@ body{
     margin-bottom: 10px; */
 }
 .sidebar {
-    background-color: rgb(153, 153, 153);
-    padding: 5px 20px;
+    background-color: rgb(184, 184, 184);
+    padding: 10px 40px;
     border-radius: 4px;
-    grid-column: 8;
+    grid-column: 7/9;
     font-family:"Montserrat", sans-serif;
     display: grid;
     grid-template-columns: 1;
@@ -43,7 +43,7 @@ body{
 }
 .sidebar > a:link{
     text-decoration: none;
-    color: rgb(254, 254, 254);
+    color: rgb(25, 25, 25);
 }
 .sidebar > a:visited{
     color: rgb(74, 10, 33);
