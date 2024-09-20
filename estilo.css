@@ -43,7 +43,7 @@ body{
 }
 .sidebar > a:link{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .sidebar > a:visited{
     color: rgb(74, 10, 33);
@@ -80,7 +80,7 @@ body{
     text-decoration: none;
 }
 .menu-principal{
-    grid-column: 2/7;
+    grid-column: 1/9;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -130,8 +130,9 @@ p{
 footer > a:hover{
     color: rgb(255, 17, 17);
 }
-.entradas-de-pag{
+.entrada{
     background-color: rgb(231, 230, 230);
     grid-row: auto;
     padding: 20px 40px;
+    border-radius: 4px;
 }

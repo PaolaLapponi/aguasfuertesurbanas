@@ -80,7 +80,7 @@ body{
     text-decoration: none;
 }
 .menu-principal{
-    grid-column: 2/7;
+    grid-column: 1/9;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
