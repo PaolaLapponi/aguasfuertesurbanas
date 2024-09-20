@@ -43,7 +43,7 @@ body{
 }
 .sidebar > a:link{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .sidebar > a:visited{
     color: rgb(74, 10, 33);
