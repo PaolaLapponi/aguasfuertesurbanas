@@ -33,9 +33,11 @@ body{
     border-radius: 4px;
     grid-column: 7/9;
     font-family:"Montserrat", sans-serif;
+}
+.div-sidebar{
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: repeat(40, auto);
+    grid-template-rows: repeat(20, auto);
 }
 .sidebar > a:link{
     text-decoration: none;
@@ -60,7 +62,6 @@ body{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(1, auto);
-    justify-items: center;
 }
 .titulo-pag{
     grid-column: 1/9;

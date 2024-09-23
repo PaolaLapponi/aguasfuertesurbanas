@@ -26,10 +26,6 @@ body{
     grid-template-columns: 1;
     grid-template-rows: 1;
     row-gap: 15px;
-    /* margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px; */
 }
 .sidebar {
     background-color: rgb(184, 184, 184);
@@ -37,9 +33,11 @@ body{
     border-radius: 4px;
     grid-column: 7/9;
     font-family:"Montserrat", sans-serif;
+}
+.div-sidebar{
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: repeat(40, auto);
+    grid-template-rows: repeat(20, auto);
 }
 .sidebar > a:link{
     text-decoration: none;
@@ -64,7 +62,6 @@ body{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(1, auto);
-    justify-items: center;
 }
 .titulo-pag{
     grid-column: 1/9;
@@ -107,7 +104,6 @@ ul > li >a:hover{
     margin-right: 5px;
 }
 .pie-links{
-    margin-top: 12px;
     text-decoration: none;
     color: #f2f2f2;
     font-family: "Montserrat", sans-serif;
