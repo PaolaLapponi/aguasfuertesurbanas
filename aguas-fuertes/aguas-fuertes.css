@@ -33,23 +33,21 @@ body{
     border-radius: 4px;
     grid-column: 7/9;
     font-family:"Montserrat", sans-serif;
-}
-.div-sidebar{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);
 }
-.sidebar > a:link{
+.div-sidebar > a:link{
     text-decoration: none;
     color: rgb(25, 25, 25);
 }
-.sidebar > a:visited{
+.div-sidebar > a:visited{
     color: rgb(74, 10, 33);
 }
 .sidebar > a:hover{
     color: rgb(153, 0, 0);
 }
-.sidebar > h2 {
+.div-sidebar > h2 {
     font-size: 20px;
     text-align: center;
 }
