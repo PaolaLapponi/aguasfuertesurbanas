@@ -60,6 +60,7 @@ body{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(1, auto);
+    justify-items: center;
 }
 .titulo-pag{
     grid-column: 1/9;
