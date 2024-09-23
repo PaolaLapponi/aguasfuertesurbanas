@@ -33,8 +33,6 @@ body{
     border-radius: 4px;
     grid-column: 7/9;
     font-family:"Montserrat", sans-serif;
-}
-.div-sidebar{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);

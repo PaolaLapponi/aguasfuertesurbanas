@@ -37,17 +37,17 @@ body{
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);
 }
-.div-sidebar > a:link{
+.sidebar > a:link{
     text-decoration: none;
     color: rgb(25, 25, 25);
 }
-.div-sidebar > a:visited{
+.sidebar > a:visited{
     color: rgb(74, 10, 33);
 }
 .sidebar > a:hover{
     color: rgb(153, 0, 0);
 }
-.div-sidebar > h2 {
+.sidebar > h2 {
     font-size: 20px;
     text-align: center;
 }
