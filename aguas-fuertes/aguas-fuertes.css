@@ -27,7 +27,7 @@ body{
     grid-template-rows: repeat(1, auto);
     row-gap: 15px;
 }
-.sidebar {
+.div-sidebar {
     background-color: rgb(184, 184, 184);
     padding-top: 10px;
     border-radius: 4px;
