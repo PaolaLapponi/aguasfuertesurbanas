@@ -37,7 +37,8 @@ body{
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);
 }
-.sidebar > a:link{
+.div-sidebar > a:link{
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     color: rgb(25, 25, 25);
