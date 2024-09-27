@@ -39,7 +39,7 @@ body{
     grid-template-rows: repeat(20, auto);
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    grid-column: 7/9;    
+    grid-column: 7/8;    
 }
 .div-sidebar > a:link{
     margin-right: 40px;
