@@ -38,7 +38,8 @@ body{
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;   
+    font-size: 18px;
+    grid-column: 7/9;    
 }
 .div-sidebar > a:link{
     margin-right: 40px;
