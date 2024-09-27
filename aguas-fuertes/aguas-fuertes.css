@@ -31,21 +31,22 @@ body{
     background-color: rgb(184, 184, 184);
     padding-top: 10px;
     border-radius: 4px;
-    grid-column: 7/9; 
-   
+    grid-column: 7/9;  
 }
 .div-sidebar{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;   
 }
 .div-sidebar > a:link{
-    margin: 10px;
-    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 15px;
+    text-align: left;
     text-decoration: none;
     color: rgb(25, 25, 25);
-    font-family:"Montserrat", sans-serif;
 }
 .div-sidebar > a:visited{
     color: rgb(74, 10, 33);
@@ -54,7 +55,7 @@ body{
     color: rgb(153, 0, 0);
 }
 .div-sidebar > h2 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 .footer {
