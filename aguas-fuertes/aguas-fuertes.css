@@ -27,29 +27,33 @@ body{
     grid-template-rows: repeat(1, auto);
     row-gap: 15px;
 }
-.div-sidebar {
+.sidebar {
     background-color: rgb(184, 184, 184);
     padding-top: 10px;
     border-radius: 4px;
-    grid-column: 7/9;
-    font-family:"Montserrat", sans-serif;
+    grid-column: 7/9; 
+   
+}
+.div-sidebar{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(20, auto);
+    font-family:"Montserrat", sans-serif;
 }
 .div-sidebar > a:link{
     margin: 10px;
     text-align: center;
     text-decoration: none;
     color: rgb(25, 25, 25);
+    font-family:"Montserrat", sans-serif;
 }
-.sidebar > a:visited{
+.div-sidebar > a:visited{
     color: rgb(74, 10, 33);
 }
-.sidebar > a:hover{
+.div-sidebar > a:hover{
     color: rgb(153, 0, 0);
 }
-.sidebar > h2 {
+.div-sidebar > h2 {
     font-size: 20px;
     text-align: center;
 }
