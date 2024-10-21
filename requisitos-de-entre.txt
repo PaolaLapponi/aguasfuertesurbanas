@@ -1,0 +1,10 @@
+Proyecto de entrega final para programción y diseño web.
+
+0.El proyecto será dirigido a la formación de una web que pueda almacenar contenido periodístico y narrativo, similar a un  diario digital.
+1.Secciones subdivididas según temática informativa.
+2.Carrusel de imágenes de inicio con las noticias más destacada.
+3.Sección con información sobre los participantes.
+4.Barra de búsqueda.
+5.Tipografría grande y que resalte.
+6.Título, logo o ambos que resalten.
+
